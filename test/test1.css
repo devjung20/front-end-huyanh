@@ -1,0 +1,17 @@
+
+.img1{
+    position: relative;
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
+    background-color: black;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+
+}
+a{
+    color: red;
+}

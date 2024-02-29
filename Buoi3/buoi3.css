@@ -1,0 +1,53 @@
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+.imganh{
+    width: 500px;
+    height: 250px;
+    
+}
+.button-1{
+    color: white;
+    background-color: red;
+    text-decoration:underline;
+    height: 46px;
+    width: 156px;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    margin-left: 442px;
+    border-radius: 5px;
+}
+.img-two{
+    width: 500px;
+    height: 250px;  
+    position: relative;
+    background-color: black;
+    
+}
+
+.button-2{
+    background-color: #33CCFF;
+    text-decoration:underline;
+    color: white;
+    height: 46px;
+    width: 174px;
+    border-radius: 5px;
+    position: absolute;   
+    top: 40%;
+    left: 35%;
+}
+.imganh2{
+    transition: filter 0.5s ease;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transition: filter 0.5s ease;
+    -moz-transition: filter 0.5s ease;
+    -ms-transition: filter 0.5s ease;
+    -o-transition: filter 0.5s ease;
+    margin-left: 50px;
+}
+.imganh2:hover{
+    filter:brightness(70%);
+    -webkit-filter:brightness(70%);
+}

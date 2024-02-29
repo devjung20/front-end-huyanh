@@ -1,0 +1,27 @@
+h4 {
+  width: 400px; /*chieu rong*/
+  height: 250px; /*chieu dai*/
+  background-color: Teal;
+  display: flex; /*can giua noi dung*/
+  justify-content: center; /*can giua chieu ngang*/
+  align-items: center; /* can giua chieu doc*/
+  border: dotted;
+  border-color: brown;
+  opacity: 0.6;
+  height: 300px;
+  /* border: 10px dotted yellow; */
+  border-color: yellow;
+}
+del {
+  color: Lime;
+  text-decoration-color: red;
+}
+.left-container {
+  background-image: url("https://img.pikbest.com/origin/10/05/55/71JpIkbEsTxZU.jpg!w700wp");
+  background-repeat: repeat-y;
+}
+
+h3 > a {
+  color: brown;
+  text-decoration: none;
+}

@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="test1.css" />
-    <title>Document</title>
-  </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover vào ảnh để hiển thị button</title>
+<style>
+    .container {
+        position: relative;
+        width: 200px;
+        height: 200px;
+    }
 
-  <body>
-    
+    .image {
+        width: 100%;
+        height: 100%;
+    }
 
-    <div class="img1">
-      <img src="https://i.pinimg.com/originals/af/bf/c4/afbfc46b60c3dfdeaf39bb4dc25591e5.jpg">
-      <button class="button">huyanh</button>
+    .button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none; /* Ẩn button ban đầu */
+    }
 
-    </div>
-  </body>
+    .container:hover .button {
+        display: block; /* Hiển thị button khi hover vào .container */
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <img class="image" src="https://vnreview.vn/image/16/81/51/1681516.jpg?t=1499848476274" alt="Ảnh">
+    <button class="button">Nút Button</button>
+</div>
+
+</body>
 </html>

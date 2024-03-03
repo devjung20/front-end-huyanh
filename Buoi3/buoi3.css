@@ -32,22 +32,24 @@ h3{
     height: 46px;
     width: 174px;
     border-radius: 5px;
-    position: absolute;   
+    position: absolute;
     top: 40%;
     left: 35%;
+    display: none;
+    
 }
 .imganh2{
     transition: filter 0.5s ease;
     object-fit: contain;
     max-width: 100%;
     max-height: 100%;
-    -webkit-transition: filter 0.5s ease;
-    -moz-transition: filter 0.5s ease;
-    -ms-transition: filter 0.5s ease;
-    -o-transition: filter 0.5s ease;
     margin-left: 50px;
 }
-.imganh2:hover{
-    filter:brightness(70%);
-    -webkit-filter:brightness(70%);
+.imganh2:hover {
+    filter:brightness(60%);
+    -webkit-filter:brightness(60%);
+    
+}
+.img-two:hover .button-2{
+    display: block;
 }
